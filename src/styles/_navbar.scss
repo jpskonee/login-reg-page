@@ -19,24 +19,24 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 2vh;
+      font-size: 1.8vh;
       color: white;
       border-radius: 5px;
-      padding: 0.4rem 0.6rem;
+      padding: 0.2rem 0.4rem;
       background-color: $dark-blue;
       cursor: pointer;
 
       .sign-in,
       .join-now {
         margin-left: 1vw;
-        border-radius: 5px;
-        padding: 0.5rem 0.7rem;
+        border-radius: 4px;
+        padding: 0.3rem 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
       }
       .join-now {
-        border: white 3px solid;
+        border: white 2px solid;
       }
       .sign-in:hover,
       .join-now:hover {
