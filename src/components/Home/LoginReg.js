@@ -4,9 +4,9 @@ import BrandName from "../BrandName"
 
 const LoginReg = () => {
     return (
-        <div className="login-page">
+        <section className="login-page">
             <BrandName />
-        </div>
+        </section>
     )
 }
 
