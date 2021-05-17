@@ -1,0 +1,48 @@
+nav {
+  color: white;
+  background: #152d45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1vh 0px;
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0;
+    margin: 0 0.3rem;
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2vh;
+      color: white;
+      border-radius: 5px;
+      padding: 0.4rem 0.6rem;
+      background-color: $dark-blue;
+      cursor: pointer;
+
+      .sign-in,
+      .join-now {
+        margin-left: 1vw;
+        border-radius: 5px;
+        padding: 0.5rem 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .join-now {
+        border: white 3px solid;
+      }
+      .sign-in:hover,
+      .join-now:hover {
+        background-color: $light-blue;
+        border: white 2px solid;
+      }
+    }
+  }
+}
