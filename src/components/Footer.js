@@ -1,21 +1,36 @@
-import { Container } from '@material-ui/core'
 import React from 'react'
+import { Container } from '@material-ui/core'
+import Grid from '@material-ui/core/Grid';
 import BrandName from './BrandName'
 
 const Footer = () => {
     return (
         <footer>
             <Container maxWidth="lg">
-                <div className="footer-bar">
-                    <BrandName />
-                    <div>Footer</div>
-                    <div>Footer</div>
-                    <div>Footer</div>
-                    <div>Footer</div>
-                    <div>Footer</div>
-                    <div>Footer</div>
-                    <div>Footer</div>
-               </div>
+                <Grid container className="footer-bar">
+                    <Grid item lg={2} md={4} sm={5} xs={6}>
+                        <BrandName />
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={3} xs={3}>
+                        <div>Footer</div>
+                    </Grid>
+                    
+               </Grid>    
             </Container>
         </footer>
     )
