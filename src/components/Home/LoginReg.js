@@ -32,7 +32,7 @@ const LoginReg = ({ login, setLogin }) => {
                     </form>
 
                     <div className="txt-forget-pwd"> Forgot Password? </div>
-                    <div className="txt-do-you"> Don't have an account ?
+                    <div className="txt-do-you"> Don't have an account?
                     <span
                         onClick= {handleJoinNow}
                         className="txt-join"> Join now!</span> </div>
