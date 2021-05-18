@@ -6,6 +6,9 @@ nav {
   justify-content: center;
   width: 100%;
   padding: 1vh 0px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
 
   .nav-bar {
     display: flex;

@@ -12,24 +12,20 @@ const Footer = () => {
                         <BrandName />
                     </Grid>
                     <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
+                        <div>News</div>
                     </Grid>
                     <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
+                        <div>About Us</div>
                     </Grid>
                     <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
+                        <div>Contact Us</div>
                     </Grid>
                     <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
+                        <div>Blog</div>
                     </Grid>
                     <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
+                        <div>Donate</div>
                     </Grid>
-                    <Grid item lg={2} md={4} sm={3} xs={3}>
-                        <div>Footer</div>
-                    </Grid>
-                    
                </Grid>    
             </Container>
         </footer>
