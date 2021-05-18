@@ -23,10 +23,10 @@ const LoginReg = ({ login, setLogin }) => {
                     <BrandName />
                     <form>
                     <div>
-                        <input placeholder="Email" />
+                        <input type="text" placeholder="Email" />
                     </div>
                     <div>
-                        <input placeholder="Password" />
+                        <input type="password" placeholder="Password" />
                     </div>
                     <div className="login-btn"> Login </div>
                     </form>
@@ -42,19 +42,19 @@ const LoginReg = ({ login, setLogin }) => {
                     <BrandName />
                     <form>
                     <div>
-                        <input placeholder="First Name" />
+                        <input type="text" placeholder="First Name" />
                     </div>
                     <div>
-                        <input placeholder="Last Name" />
+                        <input type="text" placeholder="Last Name" />
                     </div>
                     <div>
-                        <input placeholder="Username" />
+                        <input type="text" placeholder="Username" />
                     </div>
                     <div>
-                        <input placeholder="Email" />
+                        <input type="email" placeholder="Email" />
                     </div>
                     <div>
-                        <input placeholder="Password" />
+                        <input type="password" placeholder="Password" />
                     </div>
                     <div className="login-btn"> Join Now </div>
                     </form>
