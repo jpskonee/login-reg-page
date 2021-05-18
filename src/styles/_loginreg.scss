@@ -2,5 +2,49 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2.5rem;
+  margin: 2.5rem auto 0;
+
+  .login-page {
+    background: rgba(159, 152, 152, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px 0 50px;
+  }
+
+  input {
+    margin: 0 auto;
+    width: 90%;
+    height: 2.8rem;
+    color: $dark-blue;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  input:focus {
+    background-color: rgb(186, 238, 238);
+    width: 95%;
+    height: 2.8rem;
+    color: $dark-blue;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .login-btn {
+    text-align: center;
+    justify-content: center;
+    width: 12rem;
+    padding: 0.5rem 0px;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3rem;
+    background-color: $light-blue;
+    border-radius: 10px;
+  }
 }
