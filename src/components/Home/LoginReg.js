@@ -31,11 +31,11 @@ const LoginReg = ({ login, setLogin }) => {
                     <div className="login-btn"> Login </div>
                     </form>
 
-                    <div className="txt-forget-pwd"> Forgot Password ? </div>
-                    <div className="txt-do-you"> Don't have an account
+                    <div className="txt-forget-pwd"> Forgot Password? </div>
+                    <div className="txt-do-you"> Don't have an account ?
                     <span
                         onClick= {handleJoinNow}
-                        className="txt-join"> Join now</span> </div>
+                        className="txt-join"> Join now!</span> </div>
                 </Grid>
             </Grid> :  <Grid container>
                 <Grid className="login-page" item lg={4} md={6} sm={6} xs={11}>
@@ -59,9 +59,9 @@ const LoginReg = ({ login, setLogin }) => {
                     <div className="login-btn"> Join Now </div>
                     </form>
 
-                        <div className="txt-do-you"> Do you have an account <span
+                        <div className="txt-do-you"> Do you have an account? <span
                             onClick={handleSignIn}
-                            className="txt-join"> Sign-in</span> </div>
+                            className="txt-join"> Sign in!</span> </div>
                 </Grid>
             </Grid>}
         </section>

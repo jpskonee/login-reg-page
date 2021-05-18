@@ -18,7 +18,8 @@ const Home = () => {
                 />
                 <LoginReg
                     login={login}
-                    setLogin={setLogin}/>
+                setLogin={setLogin} />
+                
                 <Footer />
             </div>
     )
